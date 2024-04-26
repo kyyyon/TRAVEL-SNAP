@@ -7,9 +7,7 @@ function Content({ messages, setMessages }) {
   const [prompt, setPrompt] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [answers, setAnswers] = useState({
-    "Link 1": "ABC",
-    "Link 2": "DEF",
-    "Link 3": "XYZ",
+    
   });
 
   const handlePromptChange = (e) => {
